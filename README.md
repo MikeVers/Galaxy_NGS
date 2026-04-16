@@ -2,7 +2,7 @@
 This repository features the Galaxy workflows used for the NGS project.
 In this project 3 different workflows were used for: short reads, long reads and a hybrid workflow using both long and short reads. 
 
-Collective tools used in all three workflows:
+## Collective tools used in all three workflows:
 
 FastQC - (Galaxy Version 0.74+galaxy1) – default parameters 
 
@@ -29,7 +29,7 @@ Prokka - (Galaxy Version 1.14.6+galaxy1) – default parameters
 Prokka is a tool used to rapidly annotate prokaryotic genomes from assembled DNA sequences. It takes contigs (FASTA files) from a genome assembly and identifies genes such as protein-coding sequences (CDS), tRNA, and rRNA. It then assigns putative functions to these genes by comparing them to reference databases. The output includes standard files like GFF and GenBank formats that can be used for visualization or further analysis. The goal of Prokka is to convert a raw genome assembly into a biologically meaningful, annotated genome in a fast and automated way.
 
 
-Tools used in both the short reads and hybrid workflow:
+## Tools used in both the short reads and hybrid workflow:
 
 MultiQC - (Galaxy Version 1.33+galaxy3) – default parameters
 
@@ -44,25 +44,25 @@ Bandage Image - (Galaxy Version 2022.09+galaxy4) – default parameters
 Bandage Image is a tool used to visualize genome assembly graphs created during de novo genome assembly. It does not assemble or analyze DNA itself, but instead turns the assembly structure into a clear image. It takes graph-based assembly output (for example from SPAdes) and displays how contigs (nodes) are connected through overlaps (edges). This helps you see repeats, branching structures, and whether the genome is fragmented or circular. The visualization makes it much easier to understand complex assembly graphs than raw text files.
 
 
-Tools used in both the long reads and hybrid workflow:
+## Tools used in both the long reads and hybrid workflow:
 
 Filtlong - (Galaxy Version 0.3.1+galaxy0) – default parameters
 
 Filtlong is a tool used to filter and improve long-read sequencing data by keeping the best-quality reads and removing low-quality ones. It works on long reads (for example Nanopore or PacBio) and ranks them based on read length and sequence quality, where longer and more accurate reads are preferred. The tool then selects a high-quality subset of reads, often keeping only a percentage or target amount of data. This reduces noise and improves downstream analyses like genome assembly. The main goal of Filtlong is to produce a smaller but higher-quality long-read dataset, making assemblies more accurate and efficient.
 
 Nanoplot - (Galaxy Version 1.46.2+galaxy0) – default parameters
-\
+
 NanoPlot is a tool used to visualize and summarize long-read sequencing data (such as Nanopore or PacBio reads). It focuses on quality control by turning raw sequencing data into clear graphs and statistics. It takes input like FASTQ, BAM, or sequencing summaries and calculates key metrics such as read length distribution, quality scores, and yield. It then converts this information into multiple plots (for example histograms, scatter plots, and boxplots) that describe the overall sequencing run. This helps you quickly understand the characteristics and quality of your long-read dataset.
 
 
-Tool used in only the hybrid workflow:
+## Tool used in only the hybrid workflow:
 
 Roary - (Galaxy Version 3.13.0+galaxy3) – default parameters
 
 Roary is a tool used to build a bacterial pangenome from multiple annotated genomes. It does not work on raw reads, but on gene annotations from assemblies (usually GFF files). It compares genes across many bacterial isolates and groups them into core genes (shared by all genomes) and accessory genes (present in some but not all). This allows researchers to study genetic differences, evolution, and diversity within a species. The tool is designed to handle large datasets efficiently, making it possible to analyze hundreds or even thousands of genomes.
 
 
-Tool used in only the long reads workflow:
+## Tool used in only the long reads workflow:
 
 Flye - (Galaxy Version 2.9.6+galaxy0) – default parameters
 
