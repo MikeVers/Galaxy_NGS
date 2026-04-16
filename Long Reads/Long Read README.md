@@ -5,3 +5,10 @@ The workflow begins by filtering the raw reads using Filtlong, ensuring that onl
 
 Following this, resistance genes, plasmids, and relevant mutations are identified using staramr, providing important information for microbiological and epidemiological research. QUAST assesses the quality of the assembly, while Busco estimates the completeness of the genome by looking at universal single-copy genes.
 By combining these steps, the workflow yields a complete, high-quality long-read assembly, including quality reports, taxonomic verification, and resistance analysis. This makes the workflow a robust basis for further biological interpretation and research.
+
+### This is done by using the following workflow made using PowerPoint:
+![Long read workflow visualisation](Schematic_Workflow-Long_reads-NGS.png)
+
+
+### The following figure depicts the Workflow used in Galaxy: 
+![Long read Workflow figure](Workflow-Long_Reads-NGS-Galaxy.png)
