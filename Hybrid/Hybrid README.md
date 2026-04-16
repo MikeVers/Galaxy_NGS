@@ -6,7 +6,10 @@ Following the assembly, annotation is performed using Prokka, which identifies g
 By integrating all these steps into a single workflow, a complete, clear, and reproducible analysis process is created that is suitable for both education and research. The workflow yields not only a reliable assembly but also all relevant quality reports, annotations, and biological interpretations necessary for further study of the genome
 
 
+This is done by using the following workflow made using PowerPoint:
+![Hybrid workflow visualisation](Schematic_Hybrid_Workflow.png)
 
-This is done by using the following workflow:
 
-![Hybrid Workflow figure](Hybrid/Screenshot_of_Hybrid_Workflow.png)
+
+The following figure depicts the Workflow used in Galaxy: 
+![Hybrid Workflow figure](Screenshot_of_Hybrid_Workflow.png)
