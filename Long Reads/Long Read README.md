@@ -1,0 +1,7 @@
+# Long Read workflow
+This long-read workflow was developed to efficiently process Nanopore sequencing data into a reliable genome assembly. Because long reads vary in quality, the workflow combines quality control, filtering, assembly, and biological interpretation into a single streamlined process. This results in a reproducible analysis that leads from raw data to a fully interpreted genome without manual intermediate steps.
+
+The workflow begins by filtering the raw reads using Filtlong, ensuring that only the best and most informative sequences are used. FastQC, NanoPlot, and MultiQC then assess the data quality and provide an overview of any issues. Assembly is performed using Flye, an assembler specifically designed for long-read data, which is therefore capable of effectively reconstructing complex genomic structures. Kraken2 subsequently verifies that the reads originate from the correct species and detects potential contamination.
+
+Following this, resistance genes, plasmids, and relevant mutations are identified using staramr, providing important information for microbiological and epidemiological research. QUAST assesses the quality of the assembly, while Busco estimates the completeness of the genome by looking at universal single-copy genes.
+By combining these steps, the workflow yields a complete, high-quality long-read assembly, including quality reports, taxonomic verification, and resistance analysis. This makes the workflow a robust basis for further biological interpretation and research.
