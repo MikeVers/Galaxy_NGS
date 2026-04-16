@@ -7,9 +7,10 @@ By integrating all these steps into a single workflow, a complete, clear, and re
 
 
 This is done by using the following workflow made using PowerPoint:
-![Hybrid workflow visualisation](Schematic_Hybrid_Workflow.png)
+![Hybrid workflow visualisation](Schematic_Workflow-Hybrid_reads-NGS.png)
 
 
 
 The following figure depicts the Workflow used in Galaxy: 
-![Hybrid Workflow figure](Screenshot_of_Hybrid_Workflow.png)
+![Hybrid Workflow figure](Workflow-Hybrid_reads-NGS-Galaxy.png)
+
