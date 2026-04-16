@@ -4,3 +4,10 @@ This workflow has been developed to process short-read sequencing data, such as 
 In the preparation phase, the quality of the reads is checked and the necessary files are collected. This is followed by core analysis, in which the short reads are assembled and visualized. Tools such as Bandage help to assess the structure of the assembly, while quality controls such as QUAST and BUSCO provide insight into both the technical quality and the biological completeness of the result. These controls are essential to determine whether the assembly is reliable enough for further interpretation.
 
 In the completion phase, all results are brought together and evaluated. The workflow is designed to be flexible so that additional analyses can easily be added when necessary. Thus, this short-read workflow forms a robust and well-organized process that helps to obtain high-quality genomic results in a consistent manner.
+
+### This is done by using the following workflow made using PowerPoint:
+![Long read workflow visualisation](Schematic_Workflow-short_reads-NGS.png)
+
+
+### The following figure depicts the Workflow used in Galaxy: 
+![Long read Workflow figure](Workflow-short_reads-NGS-Galaxy.png)
