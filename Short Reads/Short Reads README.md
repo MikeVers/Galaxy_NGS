@@ -1,1 +1,6 @@
+# Short Reads workflow
+Deze workflow is ontwikkeld om short‑read sequencingdata, zoals Illumina‑reads, op een consistente en reproduceerbare manier te verwerken tot een betrouwbare genoomassemblage. Omdat short reads zeer nauwkeurig zijn maar beperkt in lengte, is het belangrijk om het analyseproces zorgvuldig op te bouwen en meerdere kwaliteitscontroles te integreren. De workflow doorloopt daarom een duidelijke structuur van voorbereiding, analyse en afronding.
 
+In de voorbereidende fase wordt de kwaliteit van de reads gecontroleerd en worden de benodigde bestanden verzameld. Daarna volgt de kernanalyse, waarin de short reads worden geassembleerd en gevisualiseerd. Tools zoals Bandage helpen om de structuur van de assemblage te beoordelen, terwijl kwaliteitscontroles zoals QUAST en BUSCO inzicht geven in zowel de technische kwaliteit als de biologische compleetheid van het resultaat. Deze controles zijn essentieel om te bepalen of de assemblage betrouwbaar genoeg is voor verdere interpretatie.
+
+In de afrondende fase worden alle resultaten samengebracht en beoordeeld. De workflow is flexibel opgezet, zodat extra analyses eenvoudig kunnen worden toegevoegd wanneer dat nodig is. Zo vormt deze short‑read workflow een robuust en overzichtelijk proces dat helpt om op een consistente manier hoogwaardige genomische resultaten te verkrijgen.
