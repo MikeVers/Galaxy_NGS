@@ -9,4 +9,4 @@ By integrating all these steps into a single workflow, a complete, clear, and re
 
 This is done by using the following workflow:
 
-![Hybrid Workflow figure]Screenshot_of_Hybrid_Workflow.png)
+![Hybrid Workflow figure](Hybrid/Screenshot_of_Hybrid_Workflow.png)
